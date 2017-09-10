@@ -53,6 +53,10 @@
     <Compile Include="Algorithms\CircleSupportFunctionsTests.cs" />
     <Compile Include="Algorithms\GjkAlgorithmTests.cs" />
     <Compile Include="Algorithms\PolygonSupportFunctionsTests.cs" />
+    <Compile Include="Helpers\LineIntersectionHelperTests.cs" />
+    <Compile Include="Helpers\PolygonCalculationHelperTests.cs" />
+    <Compile Include="Helpers\PolygonTransformationHelperTests.cs" />
+    <Compile Include="Helpers\TriangleCalculationHelperTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
