@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlitzPhysics.Geometry.Elements", "BlitzPhysics.Geometry.Elements\BlitzPhysics.Geometry.Elements.csproj", "{A6E94ADD-4DAB-4E45-A1C5-3DD5FA0B5EE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlitzPhysics.Base", "BlitzPhysics.Base\BlitzPhysics.Base.csproj", "{2B33B990-24F2-4CCD-ACE1-ECF0B81BA629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlitzPhysics.Geometry.Tools", "BlitzPhysics.Geometry.Tools\BlitzPhysics.Geometry.Tools.csproj", "{0254E982-F411-4E9F-9DCD-0458D67DF69E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E94ADD-4DAB-4E45-A1C5-3DD5FA0B5EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E94ADD-4DAB-4E45-A1C5-3DD5FA0B5EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E94ADD-4DAB-4E45-A1C5-3DD5FA0B5EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E94ADD-4DAB-4E45-A1C5-3DD5FA0B5EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B33B990-24F2-4CCD-ACE1-ECF0B81BA629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B33B990-24F2-4CCD-ACE1-ECF0B81BA629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B33B990-24F2-4CCD-ACE1-ECF0B81BA629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B33B990-24F2-4CCD-ACE1-ECF0B81BA629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0254E982-F411-4E9F-9DCD-0458D67DF69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0254E982-F411-4E9F-9DCD-0458D67DF69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0254E982-F411-4E9F-9DCD-0458D67DF69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0254E982-F411-4E9F-9DCD-0458D67DF69E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
