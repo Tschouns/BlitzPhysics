@@ -43,11 +43,15 @@
     <Compile Include="Algorithms\CircleSupportFunctions.cs" />
     <Compile Include="Algorithms\GjkAlgorithm.cs" />
     <Compile Include="Algorithms\PolygonSupportFunctions.cs" />
+    <Compile Include="Helpers\LineCalculationHelper.cs" />
+    <Compile Include="Helpers\LineIntersectionHelper.cs" />
+    <Compile Include="Helpers\PointTransformationHelper.cs" />
+    <Compile Include="Helpers\PolygonCalculationHelper.cs" />
+    <Compile Include="Helpers\PolygonTransformationHelper.cs" />
+    <Compile Include="Helpers\TriangleCalculationHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helpers\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\BlitzPhysics.Base\BlitzPhysics.Base.csproj">
       <Project>{2b33b990-24f2-4ccd-ace1-ecf0b81ba629}</Project>
