@@ -8,8 +8,8 @@ namespace BlitzPhysics.Geometry.Tools.Impl.Algorithms
 {
     using BlitzPhysics.Base.RuntimeChecks;
     using BlitzPhysics.Geometry.Elements;
-    using BlitzPhysics.Geometry.Tools.Algorithms;
     using BlitzPhysics.Geometry.Elements.Extensions;
+    using BlitzPhysics.Geometry.Tools.Algorithms;
 
     /// <summary>
     /// Implements <see cref="ISupportFunctions{TFigure}"/> for <see cref="Circle"/>.
