@@ -50,6 +50,7 @@
     <Compile Include="Helpers\PolygonTransformationHelper.cs" />
     <Compile Include="Helpers\TriangleCalculationHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GeometryToolsProjectIntializer.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

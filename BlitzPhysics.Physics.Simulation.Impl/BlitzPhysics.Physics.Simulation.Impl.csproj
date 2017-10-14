@@ -54,6 +54,7 @@
     <Compile Include="Objects\Shape\IShapeFactory.cs" />
     <Compile Include="Objects\Shape\RigidPolygonShape.cs" />
     <Compile Include="Objects\Shape\ShapeFactory.cs" />
+    <Compile Include="PhysicsSimulationProjectInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="World\PhysicalWorld.cs" />
     <Compile Include="World\PhysicsFactory.cs" />

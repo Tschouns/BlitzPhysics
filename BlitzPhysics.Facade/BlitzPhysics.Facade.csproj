@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3641390C-2B27-483C-A69A-68EF51F627E6}</ProjectGuid>
+    <ProjectGuid>{FE221322-A2BD-4BDF-9D91-79F37EC161CE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BlitzPhysics.Physics.Tools.Impl</RootNamespace>
-    <AssemblyName>BlitzPhysics.Physics.Tools.Impl</AssemblyName>
+    <RootNamespace>BlitzPhysics.Facade</RootNamespace>
+    <AssemblyName>BlitzPhysics.Facade</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,30 +40,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helpers\BodyCalculationHelper.cs" />
-    <Compile Include="Helpers\IsaacNewtonHelper.cs" />
-    <Compile Include="PhysicsToolsProjectInitializer.cs" />
+    <Compile Include="BlitzPhysicsInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlitzPhysics.Base\BlitzPhysics.Base.csproj">
-      <Project>{2b33b990-24f2-4ccd-ace1-ecf0b81ba629}</Project>
+      <Project>{2B33B990-24F2-4CCD-ACE1-ECF0B81BA629}</Project>
       <Name>BlitzPhysics.Base</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BlitzPhysics.Geometry.Elements\BlitzPhysics.Geometry.Elements.csproj">
-      <Project>{a6e94add-4dab-4e45-a1c5-3dd5fa0b5ee0}</Project>
-      <Name>BlitzPhysics.Geometry.Elements</Name>
+    <ProjectReference Include="..\BlitzPhysics.Geometry.Tools.Impl\BlitzPhysics.Geometry.Tools.Impl.csproj">
+      <Project>{d13bf6ce-722e-4141-a8fe-d4a5fba96047}</Project>
+      <Name>BlitzPhysics.Geometry.Tools.Impl</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BlitzPhysics.Geometry.Tools\BlitzPhysics.Geometry.Tools.csproj">
-      <Project>{0254e982-f411-4e9f-9dcd-0458d67df69e}</Project>
-      <Name>BlitzPhysics.Geometry.Tools</Name>
+    <ProjectReference Include="..\BlitzPhysics.Physics.Simulation.Impl\BlitzPhysics.Physics.Simulation.Impl.csproj">
+      <Project>{534b5a5e-da67-4223-8e20-64b61f07226a}</Project>
+      <Name>BlitzPhysics.Physics.Simulation.Impl</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BlitzPhysics.Physics.Tools\BlitzPhysics.Physics.Tools.csproj">
-      <Project>{060ad25f-b5b7-4e87-9423-3cf3ce8da4df}</Project>
-      <Name>BlitzPhysics.Physics.Tools</Name>
+    <ProjectReference Include="..\BlitzPhysics.Physics.Tools.Impl\BlitzPhysics.Physics.Tools.Impl.csproj">
+      <Project>{3641390c-2b27-483c-a69a-68ef51f627e6}</Project>
+      <Name>BlitzPhysics.Physics.Tools.Impl</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

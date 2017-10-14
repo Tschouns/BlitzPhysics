@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlitzPhysics.Physics.Simula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlitzPhysics.Physics.Simulation.Impl", "BlitzPhysics.Physics.Simulation.Impl\BlitzPhysics.Physics.Simulation.Impl.csproj", "{534B5A5E-DA67-4223-8E20-64B61F07226A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlitzPhysics.Facade", "BlitzPhysics.Facade\BlitzPhysics.Facade.csproj", "{FE221322-A2BD-4BDF-9D91-79F37EC161CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{534B5A5E-DA67-4223-8E20-64B61F07226A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{534B5A5E-DA67-4223-8E20-64B61F07226A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{534B5A5E-DA67-4223-8E20-64B61F07226A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE221322-A2BD-4BDF-9D91-79F37EC161CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE221322-A2BD-4BDF-9D91-79F37EC161CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE221322-A2BD-4BDF-9D91-79F37EC161CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE221322-A2BD-4BDF-9D91-79F37EC161CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
