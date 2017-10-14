@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BlitzPhysicsInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simulation.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlitzPhysics.Base\BlitzPhysics.Base.csproj">
@@ -55,6 +56,10 @@
     <ProjectReference Include="..\BlitzPhysics.Physics.Simulation.Impl\BlitzPhysics.Physics.Simulation.Impl.csproj">
       <Project>{534b5a5e-da67-4223-8e20-64b61f07226a}</Project>
       <Name>BlitzPhysics.Physics.Simulation.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlitzPhysics.Physics.Simulation\BlitzPhysics.Physics.Simulation.csproj">
+      <Project>{69869197-5B60-4DF1-8BB3-963B65B70C3D}</Project>
+      <Name>BlitzPhysics.Physics.Simulation</Name>
     </ProjectReference>
     <ProjectReference Include="..\BlitzPhysics.Physics.Tools.Impl\BlitzPhysics.Physics.Tools.Impl.csproj">
       <Project>{3641390c-2b27-483c-a69a-68ef51f627e6}</Project>

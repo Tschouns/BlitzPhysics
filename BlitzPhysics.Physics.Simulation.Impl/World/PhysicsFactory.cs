@@ -12,9 +12,9 @@ namespace BlitzPhysics.Physics.Simulation.Impl.World
     using BlitzPhysics.Physics.Simulation.World;
 
     /// <summary>
-    /// See <see cref="IPhysicsFactory"/>.
+    /// See <see cref="IWorldFactory"/>.
     /// </summary>
-    public class PhysicsFactory : IPhysicsFactory
+    public class PhysicsFactory : IWorldFactory
     {
         /// <summary>
         /// Stores the <see cref="IElementFactory"/>.
@@ -41,12 +41,7 @@ namespace BlitzPhysics.Physics.Simulation.Impl.World
         }
 
         /// <summary>
-        /// See <see cref="IPhysicsFactory.Forces"/>.
-        /// </summary>
-        public IForceFactory Forces => this._forceFactory;
-
-        /// <summary>
-        /// See <see cref="IPhysicsFactory.CreatePhysicalWorld"/>.
+        /// See <see cref="IWorldFactory.CreatePhysicalWorld"/>.
         /// </summary>
         public IPhysicalWorld CreatePhysicalWorld()
         {

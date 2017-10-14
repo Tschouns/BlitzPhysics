@@ -31,7 +31,7 @@ namespace BlitzPhysics.Physics.Simulation.Impl
 
             Ioc.Container.RegisterSingleton<IElementFactory, ElementFactory>();
             Ioc.Container.RegisterSingleton<IForceFactory, ForceFactory>();
-            Ioc.Container.RegisterSingleton<IPhysicsFactory, PhysicsFactory>();
+            Ioc.Container.RegisterSingleton<IWorldFactory, PhysicsFactory>();
             Ioc.Container.RegisterSingleton<IShapeFactory, ShapeFactory>();
         }
     }

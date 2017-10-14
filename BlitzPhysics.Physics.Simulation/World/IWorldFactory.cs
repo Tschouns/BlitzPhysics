@@ -6,18 +6,11 @@
 
 namespace BlitzPhysics.Physics.Simulation.World
 {
-    using BlitzPhysics.Physics.Simulation.Forces;
-
     /// <summary>
     /// Creates the "physical world" and other "physical" objects.
     /// </summary>
-    public interface IPhysicsFactory
+    public interface IWorldFactory
     {
-        /// <summary>
-        /// Gets the <see cref="IForceFactory"/>.
-        /// </summary>
-        IForceFactory Forces { get; }
-
         /// <summary>
         /// Creates a "physical world".
         /// </summary>
