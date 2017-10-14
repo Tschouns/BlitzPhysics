@@ -7,8 +7,15 @@
 namespace BlitzPhysics.Physics.Simulation.Impl
 {
     using Base.InversionOfControl;
+    using Base.RuntimeChecks;
     using Base.StartUp;
-    using System;
+    using Forces;
+    using Objects;
+    using Objects.Shape;
+    using Simulation.Forces;
+    using Simulation.Objects;
+    using Simulation.World;
+    using World;
 
     /// <summary>
     /// See <see cref="IProjectInitializer"/>.
@@ -20,7 +27,12 @@ namespace BlitzPhysics.Physics.Simulation.Impl
         /// </summary>
         public void PerformIocContainerRegistrations(IIocContainer iocContainer)
         {
-            throw new NotImplementedException();
+            ArgumentChecks.AssertNotNull(iocContainer, nameof(iocContainer));
+
+            Ioc.Container.RegisterSingleton<IElementFactory, ElementFactory>();
+            Ioc.Container.RegisterSingleton<IForceFactory, ForceFactory>();
+            Ioc.Container.RegisterSingleton<IPhysicsFactory, PhysicsFactory>();
+            Ioc.Container.RegisterSingleton<IShapeFactory, ShapeFactory>();
         }
     }
 }

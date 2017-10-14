@@ -7,8 +7,11 @@
 namespace BlitzPhysics.Physics.Tools.Impl
 {
     using Base.InversionOfControl;
+    using Base.RuntimeChecks;
     using BlitzPhysics.Base.StartUp;
+    using Helpers;
     using System;
+    using Tools.Helpers;
 
     /// <summary>
     /// See <see cref="IProjectInitializer"/>.
@@ -20,7 +23,10 @@ namespace BlitzPhysics.Physics.Tools.Impl
         /// </summary>
         public void PerformIocContainerRegistrations(IIocContainer iocContainer)
         {
-            throw new NotImplementedException();
+            ArgumentChecks.AssertNotNull(iocContainer, nameof(iocContainer));
+
+            Ioc.Container.RegisterSingleton<IBodyCalculationHelper, BodyCalculationHelper>();
+            Ioc.Container.RegisterSingleton<IIsaacNewtonHelper, IsaacNewtonHelper>();
         }
     }
 }
